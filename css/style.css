@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --Blue: hsl(223, 87%, 63%);
+    --Pale-Blue: hsl(223, 100%, 88%);
+    --Light-Red: hsl(354, 100%, 66%);
+    --Gray: hsl(0, 0%, 59%);
+    --Dark-Blue: hsl(209, 33%, 12%);
+}
+
+.notes {
+    text-align: center;
+    margin: 0 auto;
+ 
+}
+.ping {
+    margin: auto;
+    margin-top: 2rem;
+    width: 8%;
+}
+
+.launching {
+    margin-top: 1.25rem;
+    font-size: 1.875rem;
+    color:  var(--Gray);
+}
+
+.soon {
+    color: var(--Dark-Blue);
+}
+
+.sub {
+    margin-top: 0.3125rem;
+    font-size: 0.8125rem;
+    color: var(--Dark-Blue);
+}
+
+#form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#email {
+    border-color: var(--Pale-Blue);
+    color: var(--Gray);
+    width: 15.625rem;
+    height: 1.8125rem;
+    border-radius: 1.25rem;
+    padding: 0.625rem;
+    margin-right: 0.5rem;
+}
+
+#text {
+    font-style: italic;
+    
+}
+#btn {
+    background-color: var(--Blue);
+    color: white;
+    border-style: none;
+    width: 6.25rem;
+    height: 1.8125rem;
+    border-radius: 1.25rem;
+    cursor: pointer;
+}
+img {
+    width: 30%;
+}
+    
+.logo {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    color: var(--Blue);
+    cursor: pointer;
+    }
+
+.fa-brands {
+    margin: 25px 15px 15px 0px;
+    width: 30px;
+    height: 30px;
+    border: 1px solid var(--Pale-Blue);
+    border-radius: 50px;
+    padding: 7px;
+} 
+    
+    .fa-brands:hover {
+        background-color: blue;
+        color: white;
+       }
+    
+    .copy {
+        font-size: 0.625rem;
+        color: var(--Gray);
+    }
+
+    @media only screen and (max-width:375px) {
+
+    
+.ping {
+    margin: auto;
+    margin-top: 60px;
+    width: 15%;
+}
+
+.launching {
+    font-size: 27px;
+}
+
+.sub {
+    margin-top: 10px;
+}
+
+#form {
+    flex-direction: column;
+}
+
+#email { 
+  width: 75%;
+  height: 39px;
+  padding: 0% 0% 0% 8%;
+}
+
+#btn {
+    margin-top: 10px;
+    width: 75%;
+    height: 40px;
+}
+
+img {
+    width: 85%;
+    height: auto;
+}
+
+.logo {
+    margin-top: 20px;
+}
+    }
+
